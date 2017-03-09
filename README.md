@@ -3,7 +3,6 @@
 This module contains a message model representation and its related services :
 - Backend services
 - Frontend services
-- Frontend UI templates
 
 ## Client-side usage
 
