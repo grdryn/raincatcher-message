@@ -1,4 +1,4 @@
-# FeedHenry WFM message [![Build Status](https://travis-ci.org/feedhenry-raincatcher/raincatcher-message.png)](https://travis-ci.org/feedhenry-raincatcher/raincatcher-message)
+# FeedHenry RainCatcher message [![Build Status](https://travis-ci.org/feedhenry-raincatcher/raincatcher-message.png)](https://travis-ci.org/feedhenry-raincatcher/raincatcher-message)
 
 This module contains a message model representation and its related services :
 - Backend services
@@ -32,7 +32,7 @@ resolve: {
   }
 }
 ```
-For a more complete example, please check the [demo portal app](https://github.com/feedhenry-staff/wfm-portal/blob/master/src/app/main.js).
+For a more complete example, please check the [demo portal app](https://github.com/feedhenry-raincatcher/raincatcher-demo-portal/blob/master/src/app/main.js).
 
 
 #### `messageSync` API
@@ -200,7 +200,7 @@ The following topics are published by this module. Developers are free to implem
 ## Usage in an express backend
 
 ### Setup
-The server-side component of this WFM module exports a function that takes express and mediator instances as parameters, as in:
+The server-side component of this RainCatcher module exports a function that takes express and mediator instances as parameters, as in:
 
 ```javascript
 var express = require('express')
@@ -229,7 +229,7 @@ the module broadcasts, and listens for the following events
 
 ### Integration
 
-Check this [demo cloud application](https://github.com/feedhenry-staff/wfm-cloud/blob/master/lib/app/message.js)
+Check this [demo cloud application](https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud/blob/master/lib/app/message.js)
 
 ### message data structure example
 
