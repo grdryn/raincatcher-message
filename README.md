@@ -1,38 +1,6 @@
 # FeedHenry WFM message [![Build Status](https://travis-ci.org/feedhenry-raincatcher/raincatcher-message.png)](https://travis-ci.org/feedhenry-raincatcher/raincatcher-message)
 
-This module contains a message model representation and its related services :
-- Backend services
-- Frontend services
-
-## Client-side usage
-
-### Setup
-This module is packaged in a CommonJS format, exporting the name of the Angular namespace.  The module can be included in an angular.js as follows:
-
-```javascript
-angular.module('app', [
-, require('fh-wfm-message')
-...
-])
-```
-
-### Integration
-
-#### Angular Service
-
-This module publishes and subscribes to sync
-
-A sync manager must first be initialized using the `messageSync.createManager()`.  This can be placed, for instance, in the `resolve` config of a `ui-router` controlled application.
-
-```javascript
-resolve: {
-  messageManager: function(messageSync) {
-    return messageSync.createManager();
-  }
-}
-```
-For a more complete example, please check the [demo portal app](https://github.com/feedhenry-staff/wfm-portal/blob/master/src/app/main.js).
-
+This module contains a message model representation and its backend services
 
 #### `messageSync` API
 These messageSync API methods all return Promises:
