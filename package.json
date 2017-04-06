@@ -21,7 +21,7 @@
   "dependencies": {
     "angular-messages": "1.5.3",
     "express": "4.15.2",
-    "fh-wfm-mediator": "0.3.2",
+    "fh-wfm-mediator": "grdryn/raincatcher-mediator#try-longer-timeout",
     "lodash": "4.7.0",
     "moment": "^2.15.1",
     "ng-feedhenry": "0.3.0",
